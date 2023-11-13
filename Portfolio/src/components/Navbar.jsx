@@ -1,15 +1,19 @@
 const Navbar = () => {
   return (
     <>
-      <nav className="bg-zinc-800 pl-32 pr-32 pt-4 pb-4 text-white text-xl">
+      <nav className="bg-purple-950 pl-32 pr-32 pt-4 pb-4 text-white text-xl fixed w-full shadow-lg z-50">
         <ul className="flex justify-between">
-          <li>dv</li>
+          <li>
+            <a href="#zero" className="font-handwritten text-2xl">
+              dv
+            </a>
+          </li>
           <li className="flex">
             <div className="mr-10">
-              <a href="#one">My Work</a>
+              <a href="#two">Skills</a>
             </div>
             <div className="mr-10">
-              <a href="#two">Skills</a>
+              <a href="#one">My Work</a>
             </div>
             <div className="mr-10">
               <a href="#three">Contact</a>
