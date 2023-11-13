@@ -1,6 +1,6 @@
 import Navbar from "./components/Navbar";
 import Homepage from "./components/Homepage";
-import MyWork from "./components/MyWork";
+import MyWork from "./components/Projects";
 import About from "./components/About";
 import Socials from "./components/Socials";
 
