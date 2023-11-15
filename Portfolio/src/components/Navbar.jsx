@@ -10,13 +10,13 @@ const Navbar = () => {
           </li>
           <li className="flex">
             <div className="mr-10">
-              <a href="#two">About</a>
+              <a href="#about">About</a>
             </div>
             <div className="mr-10">
-              <a href="#one">Projects</a>
+              <a href="#projects">Projects</a>
             </div>
             <div className="mr-10">
-              <a href="#three">Contact</a>
+              <a href="#contact">Contact</a>
             </div>
           </li>
         </ul>

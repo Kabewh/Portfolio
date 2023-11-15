@@ -8,10 +8,10 @@ import Project from "./Project";
 const Projects = () => {
   return (
     <div
-      id="one"
+      id="projects"
       className="flex flex-col items-center justify-center h-auto text-white mt-96"
     >
-      <div className="text-5xl">PROJECTS</div>
+      <div className="text-5xl mt-48">PROJECTS</div>
       <SmallSeparator />
       <div className="text-xl">
         Here you will find some of the personal and clients projects that I

@@ -5,7 +5,7 @@ import SmallSeparator from "./SmallSeparator";
 const About = () => {
   return (
     <div
-      id="two"
+      id="about"
       className="flex flex-col items-center justify-center h-screen bg-zinc-950/25 font-serif text-white"
     >
       <div className="text-5xl">ABOUT ME</div>
