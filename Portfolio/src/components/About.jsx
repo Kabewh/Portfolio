@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import SkillContainer from "./SkillContainer";
 import SmallSeparator from "./SmallSeparator";
 
