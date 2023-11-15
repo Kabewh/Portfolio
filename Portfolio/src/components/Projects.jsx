@@ -15,7 +15,7 @@ const Projects = () => {
       <SmallSeparator />
       <div className="text-xl">
         Here you will find some of the personal and clients projects that I
-        created with each project containing its own case study
+        created with each project containing its own description
       </div>
       <div className="flex flex-col items-center justify-center mt-16">
         <Project

@@ -5,7 +5,7 @@ const Project = ({ picture, description }) => {
       <div className="flex justify-end">
         <img className="w-1/2" src={picture}></img>
       </div>
-      <div className="w-1/2 flex items-center justify-start -mt-20">
+      <div className="w-1/2 flex text-lg items-center justify-start -mt-20">
         <span className="w-full break-words">{description}</span>
       </div>
     </div>
