@@ -7,10 +7,10 @@ const Homepage = () => {
         id="zero"
         className="flex flex-col justify-center items-center text-white h-screen"
       >
-        <div className="text-3xl md:mt-32 md:text-7xl lg:text-9xl font-handwritten">
+        <div className="text-3xl mt-48 md:mt-32 md:text-7xl lg:text-9xl font-handwritten">
           Daniele Viola
         </div>
-        <div className="text-center mt-16 md:text-3xl md:w-1/2">
+        <div className="text-center mt-24 md:text-3xl md:w-1/2">
           Front-End focused Web Developer building the Frontend of Websites and
           Web Applications that leads to the success of the overall product{" "}
         </div>
@@ -20,7 +20,7 @@ const Homepage = () => {
         >
           PROJECTS
         </a>
-        <div className="sm:absolute mt-[40%] text-4xl animate-bounce">
+        <div className="md:absolute relative mt-32 md:mt-[40%] text-4xl animate-bounce">
           <a
             href="#about"
             className="cursor-default hover:text-purple-800 md:hover:text-5xl"

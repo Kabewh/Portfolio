@@ -9,15 +9,15 @@ const Projects = () => {
   return (
     <div
       id="projects"
-      className="flex flex-col items-center justify-center h-auto text-white mt-96"
+      className="flex flex-col items-center justify-center h-auto text-white mt-12 md:mt-96"
     >
-      <div className="text-5xl mt-48">PROJECTS</div>
+      <div className="text-2xl mt-20 md:text-5xl md:mt-48">PROJECTS</div>
       <SmallSeparator />
-      <div className="text-xl">
+      <div className="text-md text-center md:text-xl">
         Here you will find some of the personal and clients projects that I
         created with each project containing its own description
       </div>
-      <div className="flex flex-col items-center justify-center mt-16">
+      <div className="flex flex-col items-center justify-center md:mt-16">
         <Project
           picture={WorldStats}
           description={
