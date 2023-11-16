@@ -11,6 +11,9 @@ export default {
       fontFamily: {
         'handwritten': ['Rock Salt', 'cursive']
       },
+      backgroundImage: {
+        'honeycomb': "url('./src/assets/honeycomb.png')",
+      }
     },
   },
   plugins: [

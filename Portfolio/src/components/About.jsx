@@ -6,18 +6,20 @@ const About = () => {
   return (
     <div
       id="about"
-      className="flex flex-col items-center justify-center h-screen bg-zinc-950/25 font-serif text-white"
+      className="flex flex-col items-center md:flex md:flex-col md:items-center md:justify-center h-screen bg-zinc-950/25 font-serif text-white"
     >
-      <div className="text-5xl">ABOUT ME</div>
+      <div className="text-2xl mt-20 md:mt-0 md:text-5xl">ABOUT ME</div>
       <SmallSeparator />
-      <div className="text-xl text-center">
+      <div className="md:text-xl md:m-0 text-center">
         Here you will find more information about me, what I do, and my current
         skills <br></br>mostly in terms of programming and technology
       </div>
-      <div className="grid grid-cols-2 mt-16 w-1/2">
-        <div className="ml-24">
-          <div className="text-2xl">Get to know me!</div>
-          <div className="my-8 text-md">
+      <div className="md:grid md:grid-cols-2 mt-8 md:mt-16 md:w-1/2">
+        <div className="md:ml-24 p-3">
+          <div className="hidden md:block text-lg md:text-2xl">
+            Get to know me!
+          </div>
+          <div className="mt-4 mb-8 md:my-8 text-sm md:text-md">
             I'm a <span className="font-black">Frontend Web Developer</span>{" "}
             building the Front-end of Websites and Web Applications that leads
             to the success of the overall product. Check out some of my work in
@@ -32,21 +34,23 @@ const About = () => {
             hesitate to <span className="font-black">contact</span> me.
           </div>
           <a
-            href="#one"
-            className="text-md fw-500 font-bold bg-purple-900 pt-4 pb-4 pl-10 pr-10 rounded-md shadow-lg hover:shadow-purple-900 hover:duration-300 hover:ease-in-out"
+            href="#contact"
+            className="hidden md:inline-block text-md fw-500 font-bold bg-purple-900 py-4 px-10 rounded-md shadow-lg hover:shadow-purple-900 hover:duration-300 hover:ease-in-out"
           >
-            CONTACT
+            CONTACT ME
           </a>
         </div>
-        <div className="ml-24">
-          <div className="text-2xl">Skills</div>
-          <div className="mt-1 flex flex-wrap">
+        <div className="md:ml-24">
+          <div className="hidden md:inline-block text-2xl text-center md:text-left">
+            SKILLS
+          </div>
+          <div className="-mt-5 md:mt-1 flex flex-wrap md:flex-row md:flex-wrap justify-center md:justify-start">
             <SkillContainer skill={"React.js"} />
             <SkillContainer skill={"JavaScript"} />
+            <SkillContainer skill={"TypeScript"} />
             <SkillContainer skill={"HTML5"} />
             <SkillContainer skill={"CSS3"} />
             <SkillContainer skill={"Docker"} />
-            <SkillContainer skill={"TypeScript"} />
             <SkillContainer skill={"TailwindCSS"} />
             <SkillContainer skill={"Git"} />
           </div>

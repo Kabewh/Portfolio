@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import { BsLinkedin } from "react-icons/bs";
 
 const Contact = () => {
