@@ -1,46 +1,56 @@
-import { useState } from "react";
+/* eslint-disable react/prop-types */
 import { BsListUl, BsXLg } from "react-icons/bs";
 
-const Burger = () => {
-  const [open, setOpen] = useState(false);
-
-  const handleClick = () => {
-    setOpen(!open);
-  };
-
-  return !open ? (
-    <div className="ml-36 text-3xl text-center" onClick={handleClick}>
-      <BsListUl />
-    </div>
+const Burger = ({ isOpen, toggleBurger }) => {
+  return !isOpen ? (
+    <>
+      <div
+        className="inline-block md:hidden mr-5 text-2xl"
+        onClick={toggleBurger}
+      >
+        <BsListUl />
+      </div>
+      <div className="hidden md:flex md:mr-48 md:inline-block">
+        <div className="md:mr-10">
+          <a href="#about">About</a>
+        </div>
+        <div className="md:mr-10">
+          <a href="#projects">Projects</a>
+        </div>
+        <div className="md:mr-10">
+          <a href="#contact">Contact</a>
+        </div>
+      </div>
+    </>
   ) : (
     <>
-      <li className="overflow:none h-screen w-screen space-y-16 text-xl duration-500 flex flex-col items-center justify-center text-sm md:text-lg font-black md:font-normal items-center">
+      <div
+        className="w-screen flex justify-end pr-5 inline-block md:hidden text-2xl"
+        onClick={toggleBurger}
+      >
+        <BsXLg />
+      </div>
+      <div className="h-screen -mt-5 flex flex-col items-center justify-center space-y-10 text-3xl">
         <div className="md:mr-10">
-          <a href="#home" onClick={handleClick}>
+          <a href="#home" onClick={toggleBurger}>
             Home
           </a>
         </div>
         <div className="md:mr-10">
-          <a href="#about" onClick={handleClick}>
+          <a href="#about" onClick={toggleBurger}>
             About
           </a>
         </div>
         <div className="md:mr-10">
-          <a href="#projects" onClick={handleClick}>
+          <a href="#projects" onClick={toggleBurger}>
             Projects
           </a>
         </div>
         <div className="md:mr-10">
-          <a href="#contact" onClick={handleClick}>
+          <a href="#contact" onClick={toggleBurger}>
             Contact
           </a>
         </div>
-      </li>
-      <div
-        className="md:hidden absolute flex justify-end h-screen p-10 inline-block text-3xl"
-        onClick={handleClick}
-      >
-        <BsXLg />
       </div>
     </>
   );
