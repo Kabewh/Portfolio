@@ -4,7 +4,7 @@ const Homepage = () => {
   return (
     <>
       <div
-        id="zero"
+        id="home"
         className="flex flex-col justify-center items-center text-white h-screen"
       >
         <div className="text-3xl mt-48 md:mt-32 md:text-7xl lg:text-9xl font-handwritten">
