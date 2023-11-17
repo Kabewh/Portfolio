@@ -9,9 +9,9 @@ const Projects = () => {
   return (
     <div
       id="projects"
-      className="flex flex-col items-center justify-center h-auto text-white mt-12 md:mt-96"
+      className="flex flex-col items-center justify-center h-auto text-white mt-12"
     >
-      <div className="text-2xl mt-20 md:text-5xl md:mt-48">PROJECTS</div>
+      <div className="text-2xl mt-20 md:text-5xl md:mt-20">PROJECTS</div>
       <SmallSeparator />
       <div className="text-md text-center md:text-xl">
         Here you will find some of the personal and clients projects that I

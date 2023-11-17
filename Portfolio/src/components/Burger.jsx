@@ -11,13 +11,13 @@ const Burger = ({ isOpen, toggleBurger }) => {
         <BsListUl />
       </div>
       <div className="hidden md:flex md:mr-48 md:inline-block">
-        <div className="md:mr-10">
+        <div className="md:mr-10 relative after:bg-white after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-0 hover:after:w-full after:transition-all after:duration-300 cursor-pointer">
           <a href="#about">About</a>
         </div>
-        <div className="md:mr-10">
+        <div className="md:mr-10 relative after:bg-white after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-0 hover:after:w-full after:transition-all after:duration-300 cursor-pointer">
           <a href="#projects">Projects</a>
         </div>
-        <div className="md:mr-10">
+        <div className="md:mr-10 relative after:bg-white after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-0 hover:after:w-full after:transition-all after:duration-300 cursor-pointer">
           <a href="#contact">Contact</a>
         </div>
       </div>

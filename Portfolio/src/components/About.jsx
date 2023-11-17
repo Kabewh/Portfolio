@@ -6,7 +6,7 @@ const About = () => {
   return (
     <div
       id="about"
-      className="flex flex-col items-center md:flex md:flex-col md:items-center md:justify-center h-screen bg-zinc-950/25 font-serif text-white"
+      className="flex flex-col items-center py-20 md:flex md:flex-col md:items-center md:justify-center h-auto bg-zinc-950/25 font-serif text-white"
     >
       <div className="text-2xl mt-20 md:mt-0 md:text-5xl">ABOUT ME</div>
       <SmallSeparator />
@@ -14,8 +14,8 @@ const About = () => {
         Here you will find more information about me, what I do, and my current
         skills <br></br>mostly in terms of programming and technology
       </div>
-      <div className="md:grid md:grid-cols-2 mt-8 md:mt-16 md:w-1/2">
-        <div className="md:ml-24 p-3">
+      <div className="lg:grid lg:grid-cols-2 mt-8 lg:mt-16 lg:w-3/6">
+        <div className="ml-24 py-3 ">
           <div className="hidden md:block text-lg md:text-2xl">
             Get to know me!
           </div>
@@ -40,7 +40,7 @@ const About = () => {
             CONTACT ME
           </a>
         </div>
-        <div className="md:ml-24">
+        <div className="ml-24 md:mt-10">
           <div className="hidden md:inline-block text-2xl text-center md:text-left">
             SKILLS
           </div>
