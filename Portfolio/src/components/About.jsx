@@ -15,7 +15,7 @@ const About = () => {
         skills <br></br>mostly in terms of programming and technology
       </div>
       <div className="lg:grid lg:grid-cols-2 mt-8 lg:mt-16 lg:w-3/6">
-        <div className="ml-24 py-3 ">
+        <div className="md:ml-24 lg:mt-10 px-5">
           <div className="hidden md:block text-lg md:text-2xl">
             Get to know me!
           </div>
@@ -40,7 +40,7 @@ const About = () => {
             CONTACT ME
           </a>
         </div>
-        <div className="ml-24 md:mt-10">
+        <div className="md:ml-24 md:mt-10 px-5 py-10 md:py-0">
           <div className="hidden md:inline-block text-2xl text-center md:text-left">
             SKILLS
           </div>
