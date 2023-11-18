@@ -1,6 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 import SkillContainer from "./SkillContainer";
-import SmallSeparator from "./SmallSeparator";
+import Separator from "./Separator";
 
 const About = () => {
   return (
@@ -9,7 +9,7 @@ const About = () => {
       className="flex flex-col items-center py-20 md:flex md:flex-col md:items-center md:justify-center h-auto bg-zinc-950/25 font-serif text-white"
     >
       <div className="text-2xl mt-20 md:mt-0 md:text-5xl">ABOUT ME</div>
-      <SmallSeparator />
+      <Separator size="small" />
       <div className="md:text-xl md:m-0 text-center">
         Here you will find more information about me, what I do, and my current
         skills <br></br>mostly in terms of programming and technology

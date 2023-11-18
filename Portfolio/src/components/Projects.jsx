@@ -1,4 +1,4 @@
-import SmallSeparator from "./SmallSeparator";
+import Separator from "./Separator";
 import WorldStats from "../assets/WorldStats.png";
 import PConsultant from "../assets/PConsultant.png";
 import SekaiStats from "../assets/SekaiStats.png";
@@ -12,30 +12,34 @@ const Projects = () => {
       className="flex flex-col items-center justify-center h-auto text-white mt-12"
     >
       <div className="text-2xl mt-20 md:text-5xl md:mt-20">PROJECTS</div>
-      <SmallSeparator />
+      <Separator size="small" />
       <div className="text-md text-center md:text-xl">
         Here you will find some of the personal and clients projects that I
         created with each project containing its own description
       </div>
       <div className="flex flex-col items-center justify-center md:mt-16">
+        <Separator size="large" />
         <Project
           picture={WorldStats}
           description={
             "World Stats is a comprehensive web application that allows user to visualize personalized demographic data featuring a live world population clock. Integrated React.js for the frontend, Django for the backed and Chart.js for the efficient and visually appealing data representation. The data was successfully sourced and integrated from the United Nations official webpage covering demographic data since 1950."
           }
         />
+        <Separator size="large" />
         <Project
           picture={PConsultant}
           description={
             "PC Consultant is just a basic HTML template for a computer / hardware focused company."
           }
         />
+        <Separator size="large" />
         <Project
           picture={SekaiStats}
           description={
             "Developed a dynamic website for Nokia seamlessly integrating Power BI for interactive charts and statistics on diverse topics utilizing React. SekaiStats played a key role in enhancing user engagement, contributing to positive feedback from both users and stakeholders."
           }
         />
+        <Separator size="large" />
         <Project
           picture={ChatApp}
           description={
