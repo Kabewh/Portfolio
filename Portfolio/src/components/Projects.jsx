@@ -18,28 +18,29 @@ const Projects = () => {
         created with each project containing its own description
       </div>
       <div className="flex flex-col items-center justify-center md:mt-16">
-        <Separator size="large" />
+        {/* <Separator size="large" /> */}
+        <div className="w-2/4 h-0.5 my-10 bg-zinc-950/50"></div>
         <Project
           picture={WorldStats}
           description={
             "World Stats is a comprehensive web application that allows user to visualize personalized demographic data featuring a live world population clock. Integrated React.js for the frontend, Django for the backed and Chart.js for the efficient and visually appealing data representation. The data was successfully sourced and integrated from the United Nations official webpage covering demographic data since 1950."
           }
         />
-        <Separator size="large" />
+        <div className="w-2/4 h-0.5 my-10 bg-zinc-950/50"></div>
         <Project
           picture={PConsultant}
           description={
             "PC Consultant is just a basic HTML template for a computer / hardware focused company."
           }
         />
-        <Separator size="large" />
+        <div className="w-2/4 h-0.5 my-10 bg-zinc-950/50"></div>
         <Project
           picture={SekaiStats}
           description={
             "Developed a dynamic website for Nokia seamlessly integrating Power BI for interactive charts and statistics on diverse topics utilizing React. SekaiStats played a key role in enhancing user engagement, contributing to positive feedback from both users and stakeholders."
           }
         />
-        <Separator size="large" />
+        <div className="w-2/4 h-0.5 my-10 bg-zinc-950/50"></div>
         <Project
           picture={ChatApp}
           description={
