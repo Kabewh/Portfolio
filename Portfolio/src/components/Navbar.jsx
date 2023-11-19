@@ -1,5 +1,6 @@
 import Burger from "./Burger";
 import { useState } from "react";
+import Logo from "../assets/logo.png";
 
 const Navbar = () => {
   const [burgerOpen, setBurgerOpen] = useState(false);
@@ -17,7 +18,7 @@ const Navbar = () => {
               href="#home"
               className="font-handwritten text-lg ml-6 md:ml-48 md:text-2xl"
             >
-              dv
+              <img src={Logo} className="w-10"></img>
             </a>
             <Burger isOpen={burgerOpen} toggleBurger={handleBurgerClick} />
           </div>

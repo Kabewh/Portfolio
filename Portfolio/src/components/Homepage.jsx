@@ -22,7 +22,7 @@ const Homepage = () => {
         </a>
         <a
           href="#about"
-          className="animate-bounce cursor-default hover:text-purple-800 text-4xl mt-32 md:mt-48 mb-12"
+          className="animate-bounce cursor-default hover:text-purple-800 text-4xl mt-24 md:mt-48 mb-12"
         >
           <BsChevronDoubleDown />
         </a>
