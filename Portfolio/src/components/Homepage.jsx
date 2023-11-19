@@ -1,4 +1,5 @@
 import { BsChevronDoubleDown } from "react-icons/bs";
+import { Helmet } from "react-helmet-async";
 
 const Homepage = () => {
   return (
@@ -7,6 +8,13 @@ const Homepage = () => {
         id="home"
         className="flex flex-col justify-center items-center text-white min-h-screen h-auto"
       >
+        <Helmet>
+          <title>Web Developer</title>
+          <meta
+            name="description"
+            content="Front-End focused Web Developer building the Frontend of Websites and Web Applications that leads to the success of the overall product"
+          />
+        </Helmet>
         <div className="text-3xl mt-48 md:mt-32 md:text-5xl lg:text-7xl xl:text-8xl font-handwritten">
           Daniele Viola
         </div>
