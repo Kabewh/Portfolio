@@ -15,7 +15,7 @@ const Homepage = () => {
             content="Front-End focused Web Developer building the Frontend of Websites and Web Applications that leads to the success of the overall product"
           />
         </Helmet>
-        <div className="text-3xl mt-48 md:mt-32 md:text-5xl lg:text-7xl xl:text-8xl font-handwritten">
+        <div className="text-center text-5xl mt-48 md:mt-32 md:text-7xl lg:text-8xl xl:text-9xl font-thicc">
           Daniele Viola
         </div>
         <div className="text-center mt-24 md:text-lg lg:text-xl md:w-5/6 xl:text-3xl lg:w-1/2">

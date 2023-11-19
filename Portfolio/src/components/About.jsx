@@ -8,13 +8,15 @@ const About = () => {
       id="about"
       className="flex flex-col items-center py-20 md:flex md:flex-col md:items-center md:justify-center h-auto bg-zinc-950/25 font-serif text-white"
     >
-      <div className="text-2xl mt-20 md:mt-0 md:text-5xl">ABOUT ME</div>
+      <div className="text-2xl mt-20 md:mt-0 md:text-5xl font-thicc">
+        ABOUT ME
+      </div>
       <Separator size="small" />
       <div className="md:text-xl md:m-0 text-center">
         Here you will find more information about me, what I do, and my current
         skills <br></br>mostly in terms of programming and technology
       </div>
-      <div className="lg:grid lg:grid-cols-2 mt-8 lg:mt-16 lg:w-3/6">
+      <div className="xl:grid xl:grid-cols-2 mt-8 2xl:mt-16 2xl:max-w-7xl">
         <div className="md:ml-24 lg:mt-10 px-5">
           <div className="hidden md:block text-lg md:text-2xl">
             Get to know me!

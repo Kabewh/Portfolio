@@ -9,7 +9,8 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        'handwritten': ['Rock Salt', 'cursive']
+        'handwritten': ['Rock Salt', 'cursive'],
+        'thicc': ['Bowlby One', 'sans-serif']
       },
       backgroundImage: {
         'honeycomb': "url('./src/assets/honeycomb.png')",
