@@ -7,9 +7,9 @@ const Contact = () => {
       id="contact"
       className="flex flex-col justify-center items-center text-white h-auto bg-zinc-950/25"
     >
-      <div className="text-4xl md:text-5xl mt-32 text-center md:mt-64 font-thicc">
+      <h3 className="text-4xl md:text-5xl mt-32 text-center md:mt-64 font-thicc">
         Let's work together!
-      </div>
+      </h3>
       <div className="mt-12 md:mt-24 mb-48">
         <div className="flex w-full flex-wrap">
           <div className="p-5 md:p-10 hover:bg-zinc-900 hover:bg-transparent hover:duration-300 hover:ease-in-out">

@@ -11,14 +11,14 @@ const Projects = () => {
       id="projects"
       className="flex flex-col items-center justify-center h-auto text-white mt-12"
     >
-      <div className="text-2xl mt-20 md:text-5xl md:mt-20 font-thicc">
+      <h1 className="text-2xl mt-20 md:text-5xl md:mt-20 font-thicc">
         PROJECTS
-      </div>
+      </h1>
       <Separator size="small" />
-      <div className="text-md text-center md:text-xl">
+      <h3 className="text-md text-center md:text-xl">
         Here you will find some of the personal and clients projects that I
         created with each project containing its own description
-      </div>
+      </h3>
       <div className="flex flex-col items-center justify-center md:mt-16">
         {/* <Separator size="large" /> */}
         <div className="w-2/4 h-0.5 my-10 bg-zinc-950/50"></div>
