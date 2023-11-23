@@ -1,5 +1,6 @@
 /* eslint-disable react/prop-types */
 import { BsListUl, BsXLg } from "react-icons/bs";
+import { HashLink } from "react-router-hash-link";
 
 const Burger = ({ isOpen, toggleBurger }) => {
   return !isOpen ? (
@@ -12,13 +13,13 @@ const Burger = ({ isOpen, toggleBurger }) => {
       </div>
       <div className="hidden md:flex md:mr-48 md:inline-block">
         <div className="md:mr-10 relative after:bg-white after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-0 hover:after:w-full after:transition-all after:duration-300 cursor-pointer">
-          <a href="#about">About</a>
+          <HashLink to="/#about">About</HashLink>
         </div>
         <div className="md:mr-10 relative after:bg-white after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-0 hover:after:w-full after:transition-all after:duration-300 cursor-pointer">
-          <a href="#projects">Projects</a>
+          <HashLink to="/#projects">Projects</HashLink>
         </div>
         <div className="md:mr-10 relative after:bg-white after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-0 hover:after:w-full after:transition-all after:duration-300 cursor-pointer">
-          <a href="#contact">Contact</a>
+          <HashLink to="/#contact">Contact</HashLink>
         </div>
       </div>
     </>
@@ -32,24 +33,24 @@ const Burger = ({ isOpen, toggleBurger }) => {
       </div>
       <div className="h-screen -mt-5 flex flex-col items-center justify-center space-y-10 text-3xl">
         <div className="md:mr-10">
-          <a href="#home" onClick={toggleBurger}>
+          <HashLink to="/#home" onClick={toggleBurger}>
             Home
-          </a>
+          </HashLink>
         </div>
         <div className="md:mr-10">
-          <a href="#about" onClick={toggleBurger}>
+          <HashLink to="/#about" onClick={toggleBurger}>
             About
-          </a>
+          </HashLink>
         </div>
         <div className="md:mr-10">
-          <a href="#projects" onClick={toggleBurger}>
+          <HashLink to="/#projects" onClick={toggleBurger}>
             Projects
-          </a>
+          </HashLink>
         </div>
         <div className="md:mr-10">
-          <a href="#contact" onClick={toggleBurger}>
+          <HashLink to="/#contact" onClick={toggleBurger}>
             Contact
-          </a>
+          </HashLink>
         </div>
       </div>
     </>

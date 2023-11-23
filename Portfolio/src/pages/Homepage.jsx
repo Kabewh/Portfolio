@@ -1,5 +1,6 @@
 import { BsChevronDoubleDown } from "react-icons/bs";
-import { Helmet } from "react-helmet-async";
+import { Helmet } from "react-helmet";
+import { HashLink } from "react-router-hash-link";
 
 const Homepage = () => {
   return (
@@ -26,18 +27,18 @@ const Homepage = () => {
           Front-End focused Web Developer building the Frontend of Websites and
           Web Applications that leads to the success of the overall product{" "}
         </div>
-        <a
-          href="#projects"
+        <HashLink
+          to=".#projects"
           className="md:text-xl lg:text-2xl font-bold bg-purple-900 mt-24 py-3 px-3 md:py-3 md:px-8 lg:py-6 lg:px-20 rounded-md shadow-2xl hover:shadow-purple-900 hover:duration-300 hover:ease-in-out"
         >
           PROJECTS
-        </a>
-        <a
-          href="#about"
+        </HashLink>
+        <HashLink
+          to="/#about"
           className="animate-bounce cursor-default hover:text-purple-800 text-4xl mt-24 md:mt-48 mb-12"
         >
           <BsChevronDoubleDown />
-        </a>
+        </HashLink>
         <div className="md:absolute relative mt-32 md:mt-[40%] text-4xl"></div>
       </div>
     </>
