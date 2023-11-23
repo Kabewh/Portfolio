@@ -1,9 +1,9 @@
 import Navbar from "./components/Navbar";
-import Homepage from "./components/Homepage";
-import MyWork from "./components/Projects";
-import About from "./components/About";
+import Homepage from "./pages/Homepage";
+import MyWork from "./pages/Projects";
+import About from "./pages/About";
 import Socials from "./components/Socials";
-import Contact from "./components/Contact";
+import Contact from "./pages/Contact";
 
 function App() {
   return (

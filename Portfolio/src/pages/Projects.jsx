@@ -1,9 +1,9 @@
-import Separator from "./Separator";
+import Separator from "../components/Separator";
 import WorldStats from "../assets/WorldStats.png";
 import PConsultant from "../assets/PConsultant.png";
 import SekaiStats from "../assets/SekaiStats.png";
 import ChatApp from "../assets/ChatApp.png";
-import Project from "./Project";
+import Project from "../components/Project";
 
 const Projects = () => {
   return (

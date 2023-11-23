@@ -4,17 +4,21 @@ import { Helmet } from "react-helmet-async";
 const Homepage = () => {
   return (
     <>
+      <Helmet>
+        <title>Daniele Viola</title>
+        <meta
+          name="description"
+          content="Front-End focused Web Developer building the Frontend of Websites and Web Applications that leads to the success of the overall product"
+        />
+        <meta
+          name="keywords"
+          content="Website, Pagina Web, Front-End, Web Developer, Front-End Developer, Developer, Junior Front-End Developer, Middle Front-End Developer, Software Engineer, Daniele Viola"
+        />
+      </Helmet>
       <div
         id="home"
         className="flex flex-col justify-center items-center text-white min-h-screen h-auto"
       >
-        <Helmet>
-          <title>Web Developer</title>
-          <meta
-            name="description"
-            content="Front-End focused Web Developer building the Frontend of Websites and Web Applications that leads to the success of the overall product"
-          />
-        </Helmet>
         <div className="text-center text-5xl mt-48 md:mt-32 md:text-7xl lg:text-8xl xl:text-9xl font-thicc">
           Daniele Viola
         </div>
