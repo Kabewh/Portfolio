@@ -1,5 +1,1 @@
 https://danieleviola.dev/
-https://danieleviola.dev/#home
-https://danieleviola.dev/#about
-https://danieleviola.dev/#projects
-https://danieleviola.dev/#contact
