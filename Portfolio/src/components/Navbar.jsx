@@ -11,7 +11,7 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className="bg-purple-950 py-4 text-white text-xl fixed w-screen shadow-lg z-50">
+      <nav className="bg-purple-950/50 backdrop-blur py-4 text-white text-xl fixed w-screen shadow-lg z-50">
         {!burgerOpen ? (
           <div className="flex justify-between items-center">
             <a

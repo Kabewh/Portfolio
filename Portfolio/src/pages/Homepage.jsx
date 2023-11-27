@@ -16,7 +16,7 @@ const Homepage = () => {
         </h4>
         <a
           href="#projects"
-          className="md:text-xl lg:text-2xl font-bold bg-purple-900 mt-24 py-3 px-3 md:py-3 md:px-8 lg:py-6 lg:px-20 rounded-md shadow-2xl hover:shadow-purple-900 hover:duration-300 hover:ease-in-out"
+          className="md:text-xllg:text-2xl font-bold bg-purple-900/50 shadow-xl hover:shadow-purple-900 hover:bg-purple-900/75 backdrop-blur mt-24 py-3 px-3 md:py-3 md:px-8 lg:py-6 lg:px-20 rounded-md  hover:duration-300 hover:ease-in-out"
         >
           PROJECTS
         </a>

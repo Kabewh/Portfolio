@@ -39,7 +39,7 @@ const About = () => {
             </p>
             <a
               href="#contact"
-              className="hidden md:inline-block text-md fw-500 font-bold bg-purple-900 py-4 px-10 rounded-md shadow-lg hover:shadow-purple-900 hover:duration-300 hover:ease-in-out"
+              className="hidden md:inline-block text-md fw-500 font-bold bg-purple-900 py-4 px-10 rounded-md shadow-lg hover:shadow-purple-900 hover:duration-300 bg-purple-900/50 shadow-xl hover:shadow-purple-900 hover:bg-purple-900/75 backdrop-blur hover:ease-in-out"
             >
               CONTACT ME
             </a>
